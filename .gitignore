@@ -1,0 +1,16 @@
+# build output
+dist/
+
+# secrets and sessions (never commit these)
+credentials.json
+token.json
+proton_session.json
+
+# resume manifest
+.gdrive2proton_manifest.jsonl
+
+# temp uploads
+*.part
+gdrive2proton
+google-client.json
+/data/
